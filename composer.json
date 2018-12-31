@@ -1,0 +1,24 @@
+{
+    "name": "rolfisub/php-array-flatten",
+    "description": "Gets an array and flattens each element.",
+    "keywords": ["array", "flatten"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rolf Bansbach",
+            "email": "rolfisub@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=7.1"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rolfisub\\ArrayFlatten\\": "src/"
+        }
+    }
+}
